@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18220" started-at="2019-01-23T17:05:48Z" finished-at="2019-01-23T17:06:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18220" started-at="2019-01-23T17:05:48Z" finished-at="2019-01-23T17:06:06Z">
+      <class name="com.qa.tests.LoginTest">
+        <test-method status="FAIL" signature="VerifyLoginTitleTest()[pri:1, instance:com.qa.tests.LoginTest@1fdc050]" name="VerifyLoginTitleTest" duration-ms="17764" started-at="2019-01-23T17:05:48Z" finished-at="2019-01-23T17:06:06Z">
+          <exception class="java.lang.OutOfMemoryError">
+            <message>
+              <![CDATA[Java heap space]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.OutOfMemoryError: Java heap space
+at java.util.Arrays.copyOf(Unknown Source)
+at java.lang.AbstractStringBuilder.ensureCapacityInternal(Unknown Source)
+at java.lang.AbstractStringBuilder.append(Unknown Source)
+at java.lang.StringBuffer.append(Unknown Source)
+at java.io.StringWriter.write(Unknown Source)
+at java.io.PrintWriter.write(Unknown Source)
+at java.io.PrintWriter.write(Unknown Source)
+at java.io.PrintWriter.print(Unknown Source)
+at java.io.PrintWriter.println(Unknown Source)
+at java.lang.Throwable$WrappedPrintWriter.println(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+at java.lang.Throwable.printEnclosedStackTrace(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.OutOfMemoryError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginTitleTest -->
+      </class> <!-- com.qa.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
